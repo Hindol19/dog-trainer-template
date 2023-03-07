@@ -1,0 +1,60 @@
+.MissionPicAnim_container {
+  height: 600px;
+  margin: 5%;
+  width: 50%;
+  margin: 10% 0;
+  /* border: 2px solid red; */
+}
+.MissionPicAnim_container:hover .mission_img1 {
+  transform: rotate(40deg);
+}
+.MissionPicAnim_container:hover .mission_img2 {
+  transform: rotate(-30deg);
+}
+.MissionPicAnim_container div {
+  /* border: 2px solid green; */
+  width: 50%;
+  margin: 2% 5%;
+  height: 100%;
+}
+.MissionPicAnim_container div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.mission_img {
+  transition: transform 2s;
+  position: relative;
+  border: 3px solid rgb(212, 212, 212);
+  /* box-shadow: rgba(255, 255, 255, 0.25) 0px 5px 55px; */
+}
+.mission_img1 {
+  rotate: -22deg;
+  z-index: 500;
+}
+.mission_img2 {
+  z-index: 5;
+  rotate: 22deg;
+}
+@media only screen and (max-width: 1400px) {
+  .MissionPicAnim_container {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .MissionPicAnim_container {
+    height: 310px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .MissionPicAnim_container {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .MissionPicAnim_container {
+    width: 74%;
+    margin: 20% 0;
+  }
+}

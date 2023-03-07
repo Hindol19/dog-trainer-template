@@ -1,0 +1,107 @@
+.flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeTextBox_container {
+  padding: 2%;
+  margin-top: -100px;
+  width: 70%;
+  height: 60%;
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.669);
+  border-radius: 62px;
+}
+.home_text {
+  font-family: "Italiana", serif;
+  width: 90%;
+  line-height: 100px;
+  color: white;
+  font-size: 6rem;
+  margin: 2%;
+}
+.home_buttons {
+  margin: 2%;
+  width: 90%;
+  /* margin-left: 100%; */
+}
+.home_but {
+  border: none;
+  width: 140px;
+  height: 50px;
+  font-size: 1.2rem;
+  margin-right: 2%;
+  font-family: "Itim", cursive;
+}
+.home_but1 {
+  color: white;
+  background-color: rgb(193, 123, 42);
+}
+.home_but1:hover {
+  background-color: rgb(31, 150, 148);
+}
+.home_but2 {
+  color: white;
+  background-color: rgba(193, 123, 42, 0);
+  border: 2px solid rgb(193, 123, 42);
+}
+.home_but2:hover {
+  border: 2px solid rgb(31, 150, 148);
+}
+@media only screen and (max-width: 1000px) {
+  .homeTextBox_container {
+    height: 60%;
+  }
+  .home_text {
+    font-size: 3.5rem;
+    margin: 2%;
+    line-height: 80px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .home_text {
+    font-size: 3rem;
+  }
+  .home_but {
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home_text {
+    font-size: 2.2rem;
+    line-height: 60px;
+  }
+  .homeTextBox_container {
+    border-radius: 46px;
+    margin-top: 4%;
+    height: 50%;
+  }
+  .home_but {
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home_text {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .homeTextBox_container {
+    height: 40%;
+  }
+  .home_but {
+    width: 80px;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+}

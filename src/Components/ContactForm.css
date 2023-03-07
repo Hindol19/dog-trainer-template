@@ -1,0 +1,50 @@
+.contactForm_container {
+  border-radius: 15px;
+  padding: 5%;
+  width: 50%;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_item {
+  margin: 2%;
+  padding: 3%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.form_item::placeholder {
+  font-size: 1.3rem;
+
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "itim", sans-serif;
+}
+.form_sub {
+  width: 40%;
+}
+@media only screen and (max-width: 992px) {
+  .form_item::placeholder {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .form_item::placeholder {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .form_item::placeholder {
+    font-size: 0.7rem;
+  }
+  .form_item {
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 356px) {
+  .form_item::placeholder {
+    font-size: 0.6rem;
+  }
+}
