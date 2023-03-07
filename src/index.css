@@ -2,3 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Golos+Text&family=Inspiration&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body {
+  overflow-x: hidden;
+}
